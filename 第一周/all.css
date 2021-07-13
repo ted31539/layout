@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS開始 */
+li {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 80px;
+    line-height: 106px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+}
+
+.mb-1 {
+    margin-bottom: 8px;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.mb-3 {
+    margin-bottom: 24px;
+}
+
+.mb-4 {
+    margin-bottom: 32px;
+}
+
+.mb-6 {
+    margin-bottom: 48px;
+}
+
+.mb-9 {
+    margin-bottom: 72px;
+}
+
+.mt-1 {
+    margin-top: 8px;
+}
+
+.mr-2 {
+    margin-right: 24px;
+}
+
+.block {
+    display: block;
+}
+
+.subTitle {
+    font-size: 32px;
+    line-height: 45px;
+    font-style: Noto Sans;
+    border-bottom: 1px solid black;
+
+}
+.subTitle span{
+    font-size: 24px;
+    color: #A00404;
+    padding-left: 16px;    
+}
+
+.darkBlue {
+    background-color: #415165;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.skill {
+    width: 996px;
+    margin: 0 auto;
+}
+
+.skill-subTitle {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;    
+    padding-bottom: 8px;
+    font-style: 蘋方-繁;
+    border-bottom: 1px solid white;
+    margin-bottom: 37px;
+}
+
+.skill-subTitle span {
+    font-size: 24px;        
+    padding-left: 16px; 
+    font-style: Roboto;
+}
+
+.skill-content {
+    width: 192px;
+    margin: 0 auto;
+    padding-left: 24px;    
+    border-left: 1px solid #96A9C4;
+}
+
+.skill-content li {
+    font-size: 24px;
+    line-height: 36px;    
+    margin-bottom: 16px;
+}
+
+.experience-content {
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+
+}
+
+.footer-subTitle {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;    
+    padding-bottom: 8px;
+    font-style: Noto Sans;
+    border-bottom: 1px solid white;    
+}
+
+.footer-subTitle span {
+    font-size: 24px;        
+    padding-left: 16px; 
+    font-style: Roboto;
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;     
+}
+
